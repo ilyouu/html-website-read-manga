@@ -1,0 +1,294 @@
+body {
+  font-family: Tahoma,sans-serif,Helvetica,Arial;
+  margin: 0;
+  background-color: #ebebeb;
+}
+
+
+.navbarr {
+  width: 100%;
+  overflow: hidden;
+  background-color: #00BFFF;
+}
+.navbarr a {
+  float: left;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+.navbarr a:hover, .subnav:hover .subnavbtn {
+  background-color: #20a0ff;
+}
+
+
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #20a0ff;
+  width: 100%;
+  z-index: 1;
+
+  padding-top:10px; 
+  padding-bottom: 10px;
+}
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+.subnav-content a:hover {
+  background-color: #00BFFF;
+  color: white;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+
+
+
+.openbtn {
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+.openbtn:hover {
+  background-color:#20a0ff;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 10px 20px 10px 30%;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #111111;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/*@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}*/
+
+
+
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#topBtn:hover {
+  background-color: #555;
+}
+
+
+
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+}
+#mySidenav a:hover {
+  left: 0px;
+}
+#truyentranh {
+  top: 115px;
+  background-color: #f44336;
+}
+#tieuthuyet {
+  top: 195px;
+  background-color: #ffc107;
+}
+#sach {
+  top: 275px;
+  background-color: #04AA6D;
+}
+#blogg {
+  top: 377px;
+  background-color: #2196F3;
+}
+
+
+
+
+
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown a:hover {background-color: #ddd;}
+
+
+
+
+
+.footer {
+  padding-top: 20px;
+  /*text-align: center;*/
+  background: #ddd;
+}
+
+
+/*< 1 2 3 4 5 >*/
+.btnn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.activen, .btnn:hover {
+  background-color: #666;
+  color: white;
+}
+
+.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important}
+.pagination{display:-ms-flexbox;display:flex;padding-left:0;list-style:none;border-radius:.25rem}
+
+
+
+
+
+
+.trang {
+  margin-top: 10px;
+}
+.trang img {
+  border-radius: 3px 3px 3px 3px;
+}
+
+.img300 img {
+  width: 300px;
+}
+
+.img250 img {
+  width: 250px;
+}
+
+.topbot10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+.truyen a {
+  text-decoration: none;
+}
+.truyen img {
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+  height: 80%;
+}
+.truyen .alert {
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  .navbarr a {
+    display: block;
+  }
+}
