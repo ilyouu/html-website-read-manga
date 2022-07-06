@@ -1,4 +1,4 @@
-## Website HTML 4T (Website Đọc truyện tranh)
+## Website Read Manga 4T (HTML - Bootstrap)
 
 ```bash
 # Project Stoped 
