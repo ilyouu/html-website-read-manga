@@ -1,7 +1,7 @@
 ## Website Read Manga 4T (HTML - Bootstrap)
 
 ```bash
-# Project Stoped 
+Note: Project Stoped 
 ```
 
 ## Dev: Phan Văn Bằng
