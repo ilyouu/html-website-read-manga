@@ -1,8 +1,10 @@
-## website_html-4T
+## Website HTML 4T (Website Đọc truyện tranh)
 
-### Website thuần html - Website xem truyện tranh 4T - sử dụng boostrap 
+```bash
+# Project Stoped 
+```
 
-#### Kỳ I - Năm I (2021)
-
-#### À thì cái này lúc đó làm cho vui nên chỉ làm sơ cái giao diện nhìn cho có :vv sau đổi đề tài nên bỏ luôn :))))
-
+## Dev: Phan Văn Bằng
+###### Facebook: fb.com/it0902
+###### Github: github.com/ilyouu
+###### Email: pvbang23092002@gmail.com
